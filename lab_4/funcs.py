@@ -25,5 +25,60 @@ def count_huffman_codes(counter: dict[str, int]) -> dict[str, str]:
         frq.append((rm1[0] + rm2[0], rm1[1] + rm2[1]))
 
         frq.sort(key=lambda item: item[1])
-
     return res
+
+def encode_huffman(file_path: str, codes: dict[str, str], res_file: str) -> None:
+    with open(file_path) as file:
+        with open(res_file, "a+") as result:
+            line = file.readline()
+
+            while line:
+                for symbol in line:
+                    if symbol in codes.keys():
+                        result.write(codes[symbol])
+                    else:
+                        result.write(symbol)
+                
+                line = file.readline()
+
+def encode_lzw_codes(file_path: str, symbols: list[str], bits: int, q_smbs: int, res_file: str) -> int:
+    with open(res_file, "w") as res:
+        res.write('')
+    
+    len_code = 0
+
+
+    with open(file_path) as file:
+        line = file.readline()
+        preffix = ''
+
+        while line:
+            if q_smbs > 2**bits:
+                bits += 1
+
+            for symbol in line:
+                if symbol != '\n':
+                    if (preffix + symbol) in symbols:
+                        preffix += symbol
+                    else:
+                        symbols.append(preffix + symbol)
+                        q_smbs += 1
+                        output = bin(symbols.index(preffix))[2:]
+
+                        if len(output) < bits:
+                            output = "0" * (bits - len(output)) + output
+                        
+                        len_code += len(output)
+                        preffix = symbol
+                        
+                        with open(res_file, "a") as res:
+                            res.write(output)
+                else:
+                    with open(res_file, "a") as res:
+                            res.write(symbol)
+            line = file.readline()
+    
+    print(q_smbs)
+    return len_code
+
+    
