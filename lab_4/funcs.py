@@ -78,7 +78,6 @@ def encode_lzw_codes(file_path: str, symbols: list[str], bits: int, q_smbs: int,
                             res.write(symbol)
             line = file.readline()
     
-    print(q_smbs)
     return len_code
 
     
