@@ -1,13 +1,6 @@
-from typing import Self
 
-class Node:
-    def __init__(self, parent, left, right, symbols):
-        self.parent= parent
-        self.left = left
-        self.right = right
-        self.smbs = symbols
 
-def count_huffman_codes(counter: dict[str, int]) -> dict[str, str]:
+def count_huffman_codes(counter: dict[str, int], lenght: int) -> dict[str, str]:
     res: dict[str, str] = {}
     frq = [(item, cnt) for item, cnt in counter.items()]
     for symbol in counter.keys():
@@ -15,10 +8,10 @@ def count_huffman_codes(counter: dict[str, int]) -> dict[str, str]:
     
 
     while len(frq) > 1:
-        for smb in frq[0][0]:
-            res[smb] = '1' + res[smb]
-        for smb in frq[1][0]:
-            res[smb] = '0' + res[smb]
+        for i in range(0, len(frq[0][0]), lenght):
+            res[frq[0][0][i:i+lenght:]] = '1' + res[frq[0][0][i:i+lenght:]]
+        for j in range(0, len(frq[1][0]), lenght):
+            res[frq[1][0][j:j+lenght:]] = '0' + res[frq[1][0][j:j+lenght:]]
         
         rm1 = frq.pop(0)
         rm2 = frq.pop(0)
