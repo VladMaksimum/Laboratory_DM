@@ -61,505 +61,419 @@
 <t> = 553      huffman_code = 0001
 <e> = 793      huffman_code = 110
 < > = 1161     huffman_code = 001
-<Su> = 4
-<ur> = 61
-<rv> = 22
-<ve> = 63
-<ey> = 22
-<yi> = 15
-<in> = 147
-<ng> = 86
-<g > = 59
-< c> = 47
-<ca> = 20
-<an> = 106
-<n > = 96
-< b> = 47
-<be> = 23
-<e > = 233
-< d> = 31
-<de> = 42
-<et> = 19
-<te> = 63
-<er> = 78
-<rm> = 14
-<mi> = 13
-<ne> = 30
-<ed> = 65
-<d > = 117
-< a> = 159
-<as> = 60
-<s > = 113
-<a > = 39
-< m> = 58
-<me> = 76
-<ea> = 43
-<ns> = 31
-< o> = 93
-<of> = 67
-<f > = 65
-<ma> = 40
-<ak> = 6
-<ki> = 7
-< r> = 33
-<re> = 84
-<el> = 39
-<la> = 34
-<at> = 75
-<ti> = 68
-<iv> = 12
-<ly> = 16
-<y > = 47
-< l> = 26
-<ar> = 50
-<rg> = 5
-<ge> = 9
-<e-> = 4
-<-s> = 2
-<sc> = 7
-<al> = 38
-<le> = 56
-<e,> = 4
-<, > = 59
-<ac> = 21
-<cc> = 8
-<cu> = 10
-<ra> = 36
-<su> = 47
-<em> = 21
-<en> = 88
-<nt> = 79
-<ts> = 31
-< t> = 162
-<th> = 144
-<he> = 143
-< E> = 9
-<Ea> = 1
-<rt> = 19
-<hs> = 2
-< s> = 71
-<rf> = 3
-<fa> = 3
-<ce> = 37
-<es> = 55
-<s.> = 15
-<. > = 40
-< I> = 14
-<It> = 9
-<t > = 95
-< i> = 74
-<nc> = 26
-<cl> = 7
-<lu> = 10
-<ud> = 7
-<na> = 7
-<io> = 35
-<on> = 71
-<da> = 9
-<ta> = 46
-<a,> = 3
-<du> = 8
-<uc> = 9
-<ct> = 16
-<nd> = 63
-<rp> = 4
-<pr> = 17
-<to> = 38
-<o > = 34
-< u> = 20
-<us> = 24
-<sa> = 7
-<ab> = 30
-<bl> = 25
-<fo> = 28
-<or> = 82
-<m,> = 2
-<d,> = 4
-<co> = 41
-<nv> = 2
-<rs> = 20
-<se> = 32
-<y,> = 5
-< e> = 35
-<st> = 55
-<li> = 21
-<is> = 29
-<sh> = 13
-<hm> = 3
-< p> = 48
-<po> = 27
-<os> = 14
-<si> = 28
-<it> = 39
-<iz> = 8
-<ze> = 1
-<rd> = 16
-<di> = 28
-< g> = 9
-<gi> = 9
-<eq> = 2
-<qu> = 5
-<ui> = 6
-<ir> = 18
-< T> = 15
-<Th> = 21
-<hu> = 7
-<s,> = 19
-< h> = 28
-<ha> = 30
-<tw> = 6
-<wo> = 10
-<im> = 12
-<il> = 14
-<r > = 48
-<bu> = 7
-<ut> = 18
-<op> = 17
-<pp> = 15
-< f> = 45
-<fu> = 2
-<un> = 19
-<s:> = 1
-<: > = 2
-<ex> = 7
-<xi> = 5
-<ho> = 12
-<ri> = 38
-<zo> = 6
-<l > = 27
-<ic> = 44
-<n,> = 9
-<ch> = 18
-<h > = 32
-<ro> = 42
-<oc> = 2
-<ss> = 13
-<ap> = 15
-<pi> = 8
-<g,> = 2
-<rk> = 9
-<ks> = 6
-<tr> = 31
-<ol> = 8
-<ru> = 14
-<bo> = 15
-<ou> = 28
-<ie> = 19
-<ee> = 22
-<ia> = 16
-<ev> = 28
-<lo> = 18
-<pm> = 4
-<um> = 16
-<vi> = 17
-<nm> = 4
-<so> = 8
-<ny> = 3
-<tu> = 15
-<mp> = 11
-<ft> = 3
-<go> = 1
-<ot> = 13
-<tt> = 4
-<n.> = 4
-<pe> = 22
-<pl> = 16
-<nn> = 2
-<ni> = 11
-<xe> = 1
-<ec> = 18
-< n> = 9
-<rl> = 5
-<ry> = 13
-< S> = 5
-< w> = 47
-<wa> = 21
-<aw> = 3
-<wn> = 3
-<hi> = 12
-<om> = 27
-<mo> = 10
-<ig> = 16
-<gn> = 5
-<if> = 6
-<fi> = 14
-<ci> = 14
-<c > = 14
-<ov> = 9
-<ul> = 14
-<ld> = 14
-<av> = 8
-<we> = 12
-<no> = 10
-<ib> = 4
-<g.> = 2
-<ip> = 3
-<pa> = 8
-<od> = 17
-<rn> = 7
-<ds> = 10
-<sp> = 5
-<mm> = 3
-<mu> = 3
-< q> = 1
-<ob> = 6
-<ba> = 6
-<ad> = 23
-<Eg> = 4
-<gy> = 4
-<yp> = 4
-<pt> = 6
-<t.> = 5
-<Gr> = 4
-< P> = 3
-<Py> = 1
-<yr> = 2
-<am> = 11
-<id> = 12
-< K> = 1
-<Kh> = 1
-<uf> = 1
-<u > = 1
-< G> = 6
-<Gi> = 1
-<za> = 1
-<lt> = 7
-< 2> = 3
-<27> = 1
-<70> = 1
-<00> = 2
-<0 > = 3
-< B> = 9
-<BC> = 5
-<C,> = 1
-< 7> = 1
-<75> = 2
-<55> = 1
-<5 > = 3
-<fe> = 9
-< 4> = 1
-<48> = 1
-<81> = 1
-<1 > = 1
-<gh> = 15
-<h.> = 1
-<sq> = 1
-<ua> = 4
-<h-> = 1
-<af> = 2
-<ff> = 2
-<m > = 12
-<Ev> = 1
-< 1> = 12
-<14> = 1
-<40> = 1
-<C > = 2
-< v> = 6
-<va> = 5
-<ll> = 13
-<ys> = 4
-<ai> = 15
-<Ti> = 1
-<gr> = 16
-<Eu> = 2
-<up> = 10
-<ph> = 6
-<hr> = 1
-< N> = 2
-<Ni> = 2
-< C> = 1
-<Cl> = 1
-<ay> = 4
-<ow> = 5
-<w > = 2
-<rb> = 1
-<by> = 14
-<ag> = 5
-<Bo> = 1
-<d.> = 6
-<ep> = 2
-<mb> = 5
-<b > = 7
-<eb> = 3
-<wi> = 11
-<nf> = 1
-<wh> = 9
-< k> = 2
-<kn> = 2
-<ls> = 3
-<dd> = 3
-<ke> = 3
-<oo> = 7
-<gl> = 13
-<-m> = 2
-< A> = 8
-<A-> = 1
-<-f> = 1
-<fr> = 8
-<k > = 2
-<A > = 2
-<r,> = 3
-<x,> = 1
-<r.> = 4
-<x > = 1
-<ox> = 2
-<A,> = 1
-<k.> = 1
-< H> = 1
-<Ha> = 1
-<lf> = 3
-<fw> = 1
-<rr> = 4
-<x.> = 1
-<ei> = 5
-<ty> = 1
-<fl> = 1
-<ug> = 5
-<py> = 1
-<xa> = 1
-<ek> = 3
-<og> = 6
-<oi> = 5
-<oa> = 3
-<sl> = 3
-<vo> = 6
-<oy> = 1
-<ya> = 1
-<In> = 5
-<Pe> = 1
-<Gu> = 2
-< 3> = 1
-<32> = 1
-<25> = 1
-<C.> = 2
-<br> = 4
-<ht> = 12
-<We> = 1
-<Ar> = 1
-<12> = 1
-<2t> = 1
-<AD> = 1
-<D.> = 1
-<2n> = 1
-<An> = 1
-<ok> = 1
-<rc> = 8
-<d-> = 1
-<-h> = 1
-<au> = 3
-<nl> = 2
-<y.> = 3
-< R> = 3
-<Ro> = 3
-<yo> = 3
-<l.> = 1
-<cr> = 5
-<dl> = 1
-<e.> = 6
-< F> = 2
-<Fr> = 3
-<ms> = 2
-<b.> = 1
-<By> = 2
-<dj> = 1
-<ju> = 2
-<bs> = 1
-< 9> = 1
-<90> = 2
-<0.> = 2
-<p > = 3
-<Ab> = 1
-<15> = 2
-< V> = 1
-<Vi> = 1
-<uv> = 1
-<iu> = 1
-<mf> = 1
-<sm> = 1
-<lb> = 1
-<w;> = 1
-<; > = 1
-<pu> = 4
-<dr> = 3
-<bb> = 1
-<n;> = 1
-<ef> = 3
-<t,> = 2
-<do> = 4
-<ub> = 2
-<pw> = 1
-<At> = 1
-< W> = 3
-<Wh> = 1
-< j> = 1
-<l,> = 2
-<aq> = 1
-<ue> = 1
-<sy> = 2
-<dg> = 1
-<bj> = 1
-<je> = 1
-<La> = 1
-<Pl> = 1
-<16> = 4
-<6t> = 1
-<gu> = 3
-<61> = 1
-<Wi> = 2
-<Sn> = 1
-< D> = 3
-<Du> = 2
-<tc> = 1
-<62> = 2
-<20> = 4
-<En> = 1
-<Ed> = 1
-<dm> = 1
-<eg> = 3
-<19> = 1
-<9t> = 1
-<dy> = 1
-<my> = 1
-<-r> = 1
-<cs> = 1
-<ii> = 1
-<i,> = 1
-<ga> = 1
-<0,> = 1
-<eo> = 3
-< M> = 2
-<Ma> = 2
-<ux> = 1
-<gs> = 1
-<17> = 4
-<72> = 1
-<St> = 1
-< J> = 2
-<Ja> = 1
-<Wa> = 1
-<77> = 2
-<71> = 1
-<1.> = 1
-<5,> = 1
-<cy> = 2
-<dv> = 1
-<Mo> = 1
-<18> = 1
-<8t> = 1
-<On> = 1
-<79> = 1
-<0s> = 1
-<Ba> = 1
-<Sp> = 1
-<nk> = 1
-<k,> = 1
-<Je> = 1
-<De> = 1
-<Pi> = 1
-<Me> = 1
-<bi> = 1
-<d:> = 1
-<ae> = 1
-<Im> = 1
-<hn> = 1
-<0t> = 1
+<Ea> = 1        huffman_code = 010011001111
+<hs> = 1        huffman_code = 010011001110
+<a,> = 1        huffman_code = 010011001101
+<ze> = 1        huffman_code = 010011001100
+<eq> = 1        huffman_code = 010011001011
+<: > = 1        huffman_code = 010011001010
+<g,> = 1        huffman_code = 010011001001
+<ft> = 1        huffman_code = 010011001000
+<go> = 1        huffman_code = 010011000111
+<da> = 1        huffman_code = 010011000110
+<Py> = 1        huffman_code = 010011000101
+< K> = 1        huffman_code = 010011000100
+<fu> = 1        huffman_code = 010011000011
+<Gi> = 1        huffman_code = 010011000010
+<za> = 1        huffman_code = 010011000001
+<70> = 1        huffman_code = 010011000000
+<75> = 1        huffman_code = 010010111111
+<48> = 1        huffman_code = 010010111110
+<1 > = 1        huffman_code = 010010111101
+<h.> = 1        huffman_code = 010010111100
+<rf> = 1        huffman_code = 010010111011
+<sq> = 1        huffman_code = 010010111010
+<h-> = 1        huffman_code = 010010111001
+<Ev> = 1        huffman_code = 010010111000
+<14> = 1        huffman_code = 010010110111
+<00> = 1        huffman_code = 010010110110
+<Ti> = 1        huffman_code = 010010110101
+< N> = 1        huffman_code = 010010110100
+<Cl> = 1        huffman_code = 010010110011
+<nf> = 1        huffman_code = 010010110010
+<dd> = 1        huffman_code = 010010110001
+<ke> = 1        huffman_code = 010010110000
+<-f> = 1        huffman_code = 010010101111
+<k > = 1        huffman_code = 010010101110
+<x,> = 1        huffman_code = 010010101101
+<x > = 1        huffman_code = 010010101100
+<A,> = 1        huffman_code = 010010101011
+<k.> = 1        huffman_code = 010010101010
+< H> = 1        huffman_code = 010010101001
+<fw> = 1        huffman_code = 010010101000
+<rr> = 1        huffman_code = 010010100111
+<x.> = 1        huffman_code = 010010100110
+<ep> = 1        huffman_code = 010010100101
+<Ni> = 1        huffman_code = 010010100100
+<py> = 1        huffman_code = 010010100011
+<oa> = 1        huffman_code = 010010100010
+<oy> = 1        huffman_code = 010010100001
+< P> = 1        huffman_code = 010010100000
+<32> = 1        huffman_code = 010010011111
+<gn> = 1        huffman_code = 010010011110
+<We> = 1        huffman_code = 010010011101
+<Ar> = 1        huffman_code = 010010011100
+<12> = 1        huffman_code = 010010011011
+<D.> = 1        huffman_code = 010010011010
+<2n> = 1        huffman_code = 010010011001
+<An> = 1        huffman_code = 010010011000
+<ok> = 1        huffman_code = 010010010111
+<d-> = 1        huffman_code = 010010010110
+<r.> = 1        huffman_code = 010010010101
+<oo> = 1        huffman_code = 010010010100
+<dl> = 1        huffman_code = 010010010011
+<ms> = 1        huffman_code = 010010010010
+<b.> = 1        huffman_code = 010010010001
+<mb> = 1        huffman_code = 010010010000
+<bs> = 1        huffman_code = 010010001111
+< 9> = 1        huffman_code = 010010001110
+<if> = 1        huffman_code = 010010001101
+<Ab> = 1        huffman_code = 010010001100
+<15> = 1        huffman_code = 010010001011
+<Ro> = 1        huffman_code = 010010001010
+< V> = 1        huffman_code = 010010001001
+<mf> = 1        huffman_code = 010010001000
+<sm> = 1        huffman_code = 010010000111
+<lb> = 1        huffman_code = 010010000110
+<w;> = 1        huffman_code = 010010000101
+<n;> = 1        huffman_code = 010010000100
+<At> = 1        huffman_code = 010010000011
+<l,> = 1        huffman_code = 010010000010
+<m,> = 1        huffman_code = 010010000001
+<je> = 1        huffman_code = 010010000000
+<La> = 1        huffman_code = 010001111111
+<Pl> = 1        huffman_code = 010001111110
+<16> = 1        huffman_code = 010001111101
+<61> = 1        huffman_code = 010001111100
+<Wi> = 1        huffman_code = 010001111011
+<tc> = 1        huffman_code = 010001111010
+<En> = 1        huffman_code = 010001111001
+<Ed> = 1        huffman_code = 010001111000
+<19> = 1        huffman_code = 010001110111
+<my> = 1        huffman_code = 010001110110
+<ii> = 1        huffman_code = 010001110101
+<0,> = 1        huffman_code = 010001110100
+<72> = 1        huffman_code = 010001110011
+<Ja> = 1        huffman_code = 010001110010
+<Wa> = 1        huffman_code = 010001110001
+<71> = 1        huffman_code = 010001110000
+<pm> = 1        huffman_code = 010001101111
+<77> = 1        huffman_code = 010001101110
+<5,> = 1        huffman_code = 010001101101
+<Mo> = 1        huffman_code = 010001101100
+<8t> = 1        huffman_code = 010001101011
+<y.> = 1        huffman_code = 010001101010
+<On> = 1        huffman_code = 010001101001
+<90> = 1        huffman_code = 010001101000
+<Sp> = 1        huffman_code = 010001100111
+<nk> = 1        huffman_code = 010001100110
+<k,> = 1        huffman_code = 010001100101
+<Fr> = 1        huffman_code = 010001100100
+<Je> = 1        huffman_code = 010001100011
+< D> = 1        huffman_code = 010001100010
+<Pi> = 1        huffman_code = 010001100001
+<sy> = 1        huffman_code = 010001100000
+<Ma> = 1        huffman_code = 001011000111
+<ny> = 1        huffman_code = 001011000110
+<av> = 1        huffman_code = 001011000101
+<d:> = 1        huffman_code = 001011000100
+<hn> = 1        huffman_code = 11111110011
+<0t> = 1        huffman_code = 11111110010
+<oc> = 1        huffman_code = 10111000001
+<rg> = 2        huffman_code = 10111000000
+<d,> = 2        huffman_code = 01010100001
+<hm> = 2        huffman_code = 01010100000
+<tt> = 2        huffman_code = 01010011111
+<nn> = 2        huffman_code = 01010011110
+<n.> = 2        huffman_code = 01010011101
+<wn> = 2        huffman_code = 01010011100
+<bu> = 2        huffman_code = 01010011011
+<g.> = 2        huffman_code = 01010011010
+<ip> = 2        huffman_code = 01010011001
+<Eg> = 2        huffman_code = 01010011000
+<yp> = 2        huffman_code = 01010010111
+<lt> = 2        huffman_code = 01010010110
+< 2> = 2        huffman_code = 01010010101
+<0 > = 2        huffman_code = 01010010100
+<5 > = 2        huffman_code = 01010010011
+<ua> = 2        huffman_code = 01010010010
+<af> = 2        huffman_code = 01010010001
+< E> = 2        huffman_code = 01010010000
+<gy> = 2        huffman_code = 01010001111
+<pt> = 2        huffman_code = 01010001110
+<C > = 2        huffman_code = 01010001101
+<Eu> = 2        huffman_code = 01010001100
+< k> = 2        huffman_code = 01010001011
+<ls> = 2        huffman_code = 01010001010
+<pa> = 2        huffman_code = 01010001001
+<ak> = 2        huffman_code = 01010001000
+< G> = 2        huffman_code = 01010000111
+<au> = 2        huffman_code = 01010000110
+<ib> = 2        huffman_code = 01010000101
+< R> = 2        huffman_code = 01010000100
+<pi> = 2        huffman_code = 01010000011
+<vo> = 2        huffman_code = 01010000010
+< F> = 2        huffman_code = 01010000001
+<lu> = 2        huffman_code = 01010000000
+<ju> = 2        huffman_code = 01001111111
+<0.> = 2        huffman_code = 01001111110
+<eb> = 2        huffman_code = 01001111101
+<ef> = 2        huffman_code = 01001111100
+< W> = 2        huffman_code = 01001111011
+<p > = 2        huffman_code = 01001111010
+<ys> = 2        huffman_code = 01001111001
+<dr> = 2        huffman_code = 01001111000
+<aw> = 2        huffman_code = 01001110111
+<gu> = 2        huffman_code = 01001110110
+<Du> = 2        huffman_code = 01001110101
+<rc> = 2        huffman_code = 01001110100
+<62> = 2        huffman_code = 01001110011
+<ba> = 2        huffman_code = 01001110010
+<pu> = 2        huffman_code = 01001110001
+<eo> = 2        huffman_code = 01001110000
+<do> = 2        huffman_code = 01001101111
+< M> = 2        huffman_code = 01001101110
+<rp> = 2        huffman_code = 01001101101
+<17> = 2        huffman_code = 01001101100
+<eg> = 2        huffman_code = 01001101011
+<cy> = 2        huffman_code = 01001101010
+<br> = 2        huffman_code = 01001101001
+<tw> = 2        huffman_code = 01001101000
+<Su> = 3        huffman_code = 1111111000
+<cc> = 3        huffman_code = 1011111101
+<fa> = 3        huffman_code = 1011111100
+<na> = 3        huffman_code = 1011111011
+<y,> = 3        huffman_code = 1011111010
+<ui> = 3        huffman_code = 1011111001
+<yi> = 3        huffman_code = 1011111000
+<iz> = 3        huffman_code = 1011110111
+<It> = 3        huffman_code = 1011110110
+<qu> = 3        huffman_code = 1011110101
+<ex> = 3        huffman_code = 1011110100
+< n> = 3        huffman_code = 1011110011
+< S> = 3        huffman_code = 1011110010
+<mu> = 3        huffman_code = 1011110001
+<ob> = 3        huffman_code = 1011110000
+<BC> = 3        huffman_code = 1011101111
+<ay> = 3        huffman_code = 1011101110
+<ow> = 3        huffman_code = 1011101101
+<rk> = 3        huffman_code = 1011101100
+< v> = 3        huffman_code = 1011101011
+<r,> = 3        huffman_code = 1011101010
+<zo> = 3        huffman_code = 1011101001
+<ug> = 3        huffman_code = 1011101000
+<oi> = 3        huffman_code = 1011100111
+<sl> = 3        huffman_code = 1011100110
+<ag> = 3        huffman_code = 1011100101
+<ry> = 3        huffman_code = 1011100100
+<yo> = 3        huffman_code = 1011100011
+<ol> = 3        huffman_code = 1011100010
+<og> = 3        huffman_code = 1011100001
+<ki> = 4        huffman_code = 0101101001
+<e-> = 4        huffman_code = 0101101000
+<sc> = 4        huffman_code = 0101100111
+<e,> = 4        huffman_code = 0101100110
+<sa> = 4        huffman_code = 0101100101
+<hu> = 4        huffman_code = 0101100100
+<xi> = 4        huffman_code = 0101100011
+<n,> = 4        huffman_code = 0101100010
+<nm> = 4        huffman_code = 0101100001
+<so> = 4        huffman_code = 0101100000
+<rl> = 4        huffman_code = 0101011111
+<ov> = 4        huffman_code = 0101011110
+<ap> = 4        huffman_code = 0101011101
+<Gr> = 4        huffman_code = 0101011100
+<m > = 4        huffman_code = 0101011011
+<ph> = 4        huffman_code = 0101011010
+<d.> = 4        huffman_code = 0101011001
+<b > = 4        huffman_code = 0101011000
+<wh> = 4        huffman_code = 0101010111
+<wi> = 4        huffman_code = 0101010110
+< A> = 4        huffman_code = 0101010101
+<ei> = 4        huffman_code = 0101010100
+<In> = 4        huffman_code = 0101010011
+<ht> = 4        huffman_code = 0101010010
+<cr> = 4        huffman_code = 0101010001
+<mi> = 5        huffman_code = 0010110000
+<uc> = 5        huffman_code = 0000100011
+<wo> = 5        huffman_code = 0000100010
+<im> = 5        huffman_code = 0000100001
+<ks> = 5        huffman_code = 0000100000
+<hi> = 5        huffman_code = 0000011111
+<mo> = 5        huffman_code = 0000011110
+<ni> = 5        huffman_code = 0000011101
+<ci> = 5        huffman_code = 0000011100
+<sp> = 5        huffman_code = 0000011011
+<t.> = 5        huffman_code = 0000011010
+<va> = 5        huffman_code = 0000011001
+<ll> = 5        huffman_code = 0000011000
+<ot> = 5        huffman_code = 0000010111
+<um> = 5        huffman_code = 0000010110
+<ho> = 5        huffman_code = 0000010101
+<up> = 5        huffman_code = 0000010100
+<rn> = 5        huffman_code = 0000010011
+<du> = 5        huffman_code = 0000010010
+<fr> = 5        huffman_code = 0000010001
+<gi> = 5        huffman_code = 0000010000
+<e.> = 5        huffman_code = 111111111
+<am> = 5        huffman_code = 111111110
+<ge> = 5        huffman_code = 111111101
+<iv> = 6        huffman_code = 110001001
+<ud> = 6        huffman_code = 110001000
+<os> = 6        huffman_code = 110000111
+< g> = 6        huffman_code = 110000110
+<ss> = 6        huffman_code = 110000101
+<ds> = 6        huffman_code = 110000100
+<fe> = 6        huffman_code = 110000011
+< B> = 6        huffman_code = 110000010
+<ld> = 6        huffman_code = 110000001
+<cu> = 6        huffman_code = 110000000
+< 1> = 6        huffman_code = 101111111
+<cl> = 7        huffman_code = 100011011
+<ct> = 7        huffman_code = 100011010
+<ia> = 7        huffman_code = 100011001
+<mp> = 7        huffman_code = 100011000
+<nc> = 7        huffman_code = 011111111
+<ig> = 7        huffman_code = 011111110
+<id> = 7        huffman_code = 011111101
+<by> = 7        huffman_code = 011111100
+<rd> = 7        huffman_code = 011001011
+< I> = 8        huffman_code = 011001010
+<il> = 8        huffman_code = 010111111
+<op> = 8        huffman_code = 010111110
+<un> = 8        huffman_code = 010111101
+<ir> = 8        huffman_code = 010111100
+<c > = 8        huffman_code = 010111011
+<ul> = 8        huffman_code = 010111010
+<pe> = 8        huffman_code = 010111001
+<ly> = 8        huffman_code = 010111000
+<ai> = 8        huffman_code = 010110111
+<tu> = 8        huffman_code = 010110110
+<lo> = 8        huffman_code = 010110101
+<ca> = 9        huffman_code = 001100111
+<rt> = 9        huffman_code = 001100110
+<s.> = 9        huffman_code = 001100101
+<pr> = 9        huffman_code = 001100100
+<rm> = 9        huffman_code = 001100011
+<us> = 9        huffman_code = 001100010
+<tr> = 9        huffman_code = 001100001
+<ru> = 9        huffman_code = 001100000
+<we> = 9        huffman_code = 001011111
+<no> = 9        huffman_code = 001011110
+<od> = 9        huffman_code = 001011101
+<bo> = 9        huffman_code = 001011100
+<gr> = 9        huffman_code = 001011011
+<wa> = 9        huffman_code = 001011010
+<gh> = 9        huffman_code = 001011001
+<sh> = 10       huffman_code = 000010111
+<ut> = 10       huffman_code = 000010110
+<ie> = 10       huffman_code = 000010101
+<pl> = 10       huffman_code = 000010100
+<Th> = 10       huffman_code = 000010011
+<gl> = 10       huffman_code = 000010010
+<em> = 11       huffman_code = 11100111
+< u> = 11       huffman_code = 11100110
+<bl> = 11       huffman_code = 11100101
+< T> = 11       huffman_code = 11100100
+<po> = 11       huffman_code = 11100011
+<pp> = 11       huffman_code = 11100010
+<vi> = 11       huffman_code = 11100001
+<. > = 11       huffman_code = 11100000
+<fi> = 11       huffman_code = 11011111
+<ch> = 11       huffman_code = 11011110
+<ac> = 11       huffman_code = 11010001
+<rv> = 12       huffman_code = 11010000
+<et> = 12       huffman_code = 11001001
+<rs> = 12       huffman_code = 11001000
+<li> = 12       huffman_code = 11000111
+<ev> = 12       huffman_code = 11000110
+<ec> = 12       huffman_code = 11000101
+<ey> = 13       huffman_code = 10100101
+<be> = 13       huffman_code = 10100100
+<ns> = 13       huffman_code = 10100011
+<ts> = 13       huffman_code = 10100010
+<is> = 13       huffman_code = 10011011
+<ne> = 14       huffman_code = 10011010
+<si> = 14       huffman_code = 10010011
+<s,> = 14       huffman_code = 10010010
+< h> = 14       huffman_code = 10010001
+<h > = 14       huffman_code = 10010000
+<ee> = 14       huffman_code = 10001111
+<ad> = 14       huffman_code = 10001110
+< d> = 15       huffman_code = 01111001
+<io> = 15       huffman_code = 01111000
+<l > = 15       huffman_code = 01110111
+<ha> = 15       huffman_code = 01110110
+<o > = 15       huffman_code = 01110101
+< l> = 15       huffman_code = 01110100
+<la> = 16       huffman_code = 01100100
+<ab> = 16       huffman_code = 01100001
+<ri> = 16       huffman_code = 01100000
+<fo> = 17       huffman_code = 01000001
+< e> = 17       huffman_code = 01000000
+<di> = 17       huffman_code = 00111111
+< f> = 17       huffman_code = 00111110
+<ou> = 17       huffman_code = 00111101
+<om> = 17       huffman_code = 00111100
+<el> = 18       huffman_code = 00110101
+<se> = 18       huffman_code = 00110100
+<a > = 19       huffman_code = 00010111
+<ic> = 19       huffman_code = 00010110
+<to> = 20       huffman_code = 00001101
+<ra> = 20       huffman_code = 00001100
+< r> = 21       huffman_code = 1111110
+<es> = 21       huffman_code = 1111101
+<de> = 21       huffman_code = 1111100
+<ta> = 21       huffman_code = 1111011
+<le> = 21       huffman_code = 1111010
+<ma> = 22       huffman_code = 1110111
+<, > = 22       huffman_code = 1110110
+< c> = 22       huffman_code = 1110101
+<co> = 22       huffman_code = 1110100
+<al> = 23       huffman_code = 1101110
+<ce> = 23       huffman_code = 1101001
+<it> = 24       huffman_code = 1100101
+<ur> = 25       huffman_code = 1011001
+<su> = 25       huffman_code = 1011000
+< p> = 25       huffman_code = 1010111
+<ro> = 25       huffman_code = 1010110
+<ea> = 26       huffman_code = 1010011
+<as> = 27       huffman_code = 1010000
+<ed> = 27       huffman_code = 1001111
+< w> = 27       huffman_code = 1001110
+<y > = 28       huffman_code = 1001100
+< s> = 28       huffman_code = 1001011
+< b> = 28       huffman_code = 1001010
+<te> = 29       huffman_code = 0111110
+<nd> = 30       huffman_code = 0111101
+< m> = 31       huffman_code = 0110101
+<f > = 31       huffman_code = 0110100
+<ar> = 31       huffman_code = 0110011
+<ng> = 32       huffman_code = 0110001
+<or> = 33       huffman_code = 0100010
+<ve> = 34       huffman_code = 0100001
+<g > = 35       huffman_code = 0011101
+<at> = 35       huffman_code = 0011100
+<r > = 35       huffman_code = 0011011
+<er> = 37       huffman_code = 0010011
+<on> = 37       huffman_code = 0010010
+<of> = 37       huffman_code = 0001111
+<ti> = 38       huffman_code = 0001110
+<re> = 38       huffman_code = 0001101
+<st> = 38       huffman_code = 0001100
+<me> = 39       huffman_code = 0001010
+< i> = 40       huffman_code = 0000111
+<t > = 44       huffman_code = 111100
+< o> = 46       huffman_code = 110110
+<nt> = 46       huffman_code = 110101
+<en> = 48       huffman_code = 110011
+<n > = 49       huffman_code = 101101
+<s > = 52       huffman_code = 101010
+<an> = 57       huffman_code = 100010
+<he> = 61       huffman_code = 011100
+<d > = 62       huffman_code = 011011
+<in> = 74       huffman_code = 001010
+< t> = 75       huffman_code = 001000
+< a> = 80       huffman_code = 000100
+<th> = 81       huffman_code = 000000
+<e > = 116      huffman_code = 10000
