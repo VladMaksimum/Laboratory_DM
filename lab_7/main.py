@@ -83,8 +83,8 @@ def read(n, file):
                 graph[v][int(adjs[j])] = True
                 graph[int(adjs[j])][v] = True
 
-                w[v][int(adjs[j])] = 1
-                w[int(adjs[j])][v] = 1
+                w[v][int(adjs[j])] = np.random.randint(1, 10)
+                w[int(adjs[j])][v] = w[v][int(adjs[j])]
             
             line = f.readline()
     
@@ -99,8 +99,10 @@ def floyd(graph, n, w):
         for j in range(n):
             if graph[i][j]:
                 next[i][j] = j
+                next[j][i] = i
             else:
                 next[i][j] = INF
+                next[j][i] = INF
 
     for i in prange(n):
         for u in prange(n):
@@ -139,10 +141,10 @@ def find_way(d, next, u, v, file):
         while c != v:
             f.write(f'{c} ')
             c = int(next[c][v])
-        
+    
         f.write(f'{v}')
 
-def dijkstra(s, graph, n):
+def dijkstra(s, graph, n, w):
     d = np.zeros(n)
     used = np.zeros(n)
     next = np.zeros(n)
@@ -165,8 +167,8 @@ def dijkstra(s, graph, n):
         used[v] = True
         for e in range(n):
             if graph[v][e]:
-                if d[v] + 1 < d[e]:
-                    d[e] = d[v] + 1
+                if d[v] + w[v][e] < d[e]:
+                    d[e] = d[v] + w[v][e]
                     next[e] = v
     
     with open(f'lab_7/distances/d_distance{n}.txt', 'w') as file:
@@ -193,10 +195,10 @@ def find_dijkstra_way(next, d, s, v, file):
         f.write(f'{s}')
 
 
-n = 31000
+n = 500
 # graph = generate(n, int(n**(3/2)))
 folder = 'lab_7/graphs/graph'
 graph, w = read(n, f'{folder}{n}.txt')
-d, next = dijkstra(0, graph, n)
+d, next = dijkstra(0, graph, n, w)
 find_dijkstra_way(next, d, 0, n-1, f'lab_7/paths/d_path{n}.txt')
 
